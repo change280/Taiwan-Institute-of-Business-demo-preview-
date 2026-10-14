@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-14",
+  "version": "Demo 0.16",
+  "reference": "/Users/micronature/Downloads/TIB Foundation website redesign 2/tib-site/about.html",
+  "pages": [
+    "index.html",
+    "about.html",
+    "courses.html",
+    "teachers.html",
+    "news.html",
+    "publications.html"
+  ],
+  "checks": {
+    "each_page_has_three_distinct_links": true,
+    "same_link_order_and_destinations_on_all_pages": true,
+    "visible_external_links_toggle_removed": true,
+    "mobile_links_always_visible": true,
+    "mobile_button_size_css": "52px x 52px",
+    "mobile_icon_alignment": "centered via absolute positioning and auto margins",
+    "mobile_icons": [
+      "Facebook f mark",
+      "open book",
+      "work briefcase"
+    ],
+    "mobile_arrows_hidden": true,
+    "accessible_names_preserved": true,
+    "desktop_wave_and_dot_texture_present": true,
+    "background_contrast_mode_preserved": true,
+    "main_js_syntax": "PASS",
+    "javascript_files_checked": 9,
+    "browser_dom_review": {
+      "page": "index.html",
+      "url": "http://127.0.0.1:18767/index.html?dock=demo09b",
+      "result": "PASS",
+      "observed": "快速入口下直接列出 Facebook、行動學習網及在職訓練網三個可操作連結，沒有單一收合按鍵。"
+    },
+    "multiviewport_screenshot_review": "NOT_RUN",
+    "mobile_icon_css_review": {
+      "result": "PASS",
+      "rule": "position:absolute; inset:0; margin:auto",
+      "pages_loading_cache_busted_css": 6
+    },
+    "footer_collision_avoidance": {
+      "result": "PASS_SOURCE_CHECK",
+      "behavior": "lifts dock above the footer with 16px gap while footer approaches; returns to its default fixed position after leaving footer",
+      "implemented_in": "main.js and floating-dock.css",
+      "pages": [
+        "index.html",
+        "about.html",
+        "courses.html",
+        "teachers.html",
+        "news.html",
+        "publications.html"
+      ],
+      "browser_screenshot_review": "NOT_RUN"
+    }
+  }
+}

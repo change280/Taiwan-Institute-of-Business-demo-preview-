@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/png" href="assets/tib-logo-icon.png">
+<title>出版品｜財團法人企業大學文教基金會 TIB</title>
+<meta name="description" content="瀏覽財稅、會計、證券與企業治理出版品，依分類或書名搜尋，查看書目資訊與訂購洽詢方式。">
+<meta property="og:title" content="財團法人企業大學文教基金會 TIB">
+<meta property="og:description" content="以專業之學，伴企業長青。會計、法律、稅務與管理的跨域培訓。">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="styles.css?v=0.17">
+<link rel="stylesheet" href="floating-dock.css?v=0.16">
+</head>
+<body>
+
+<header class="header"><div class="wrap">
+  <a class="brand" href="index.html" aria-label="財團法人企業大學文教基金會 首頁">
+    <img class="brand__logo" src="assets/tib-logo.webp" alt="">
+    <span><span class="brand__zh" style="display:block">財團法人企業大學文教基金會</span><span class="brand__en" style="display:block">Taiwan Institute of Business</span></span>
+  </a>
+  <nav class="nav" aria-label="主選單">
+    <a href="about.html">關於基金會</a><a href="courses.html">課程資訊</a><a href="teachers.html">師資介紹</a><a href="news.html">最新消息</a><a href="publications.html" aria-current="page">出版品</a>
+    <a class="nav__cta" href="#contact">聯絡我們</a>
+  </nav>
+  <button class="menu-btn" type="button" aria-label="開啟選單" aria-controls="drawer" aria-expanded="false"><span></span><span></span><span></span></button>
+</div></header>
+
+<div class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="選單">
+  <div class="drawer__top"><a class="brand" href="index.html" aria-label="財團法人企業大學文教基金會，回到首頁"><img class="brand__logo" src="assets/tib-logo.webp" alt=""><span class="brand__zh">企業大學文教基金會</span></a><button class="drawer__close" type="button" aria-label="關閉選單">×</button></div>
+  <nav>
+    <a href="about.html">關於基金會<span>ABOUT</span></a><a href="courses.html">課程資訊<span>COURSES</span></a><a href="teachers.html">師資介紹<span>FACULTY</span></a><a href="news.html">最新消息<span>NEWS</span></a><a href="publications.html">出版品<span>PUBLICATIONS</span></a><a href="#contact">聯絡我們<span>CONTACT</span></a>
+  </nav>
+  <div class="drawer__foot">
+    <div class="drawer__lang"><a href="index.html" aria-current="true">繁體中文</a><a href="#demo-dialog" lang="en" data-demo-preview="language">English</a></div>
+    <a href="tel:+886423028277" style="display:flex;justify-content:space-between;min-height:48px;align-items:center;color:var(--on-navy)"><span>台中總會 04-2302-8277</span><span style="color:var(--gold-lt)">撥打</span></a>
+  </div>
+</div>
+
+<main>
+<section class="n-hero"><div class="wrap">
+  <div>
+    <nav class="crumb" aria-label="麵包屑"><a href="index.html">首頁</a><span>/</span><span aria-current="page">出版品</span></nav>
+    <div class="kicker kicker--rule">Publications</div>
+    <h1>出版品</h1>
+    <p class="n-hero__lead">從稅法實務、國際稅與證券，到會計管理及法律治理，整理跨領域專業著作，延伸基金會課程的學習脈絡。</p>
+  </div>
+  <div class="subscribe"><div class="subscribe__tag">出版品洽詢</div><p class="b-order">來信或來電提供書名，由專人協助確認出版資訊與訂購方式。</p><a href="tel:+886423028277" class="t-tel">04-2302-8277</a><p class="t-hours"><a href="mailto:taichung@tib.org.tw?subject=購書洽詢">taichung@tib.org.tw</a></p></div>
+</div></section>
+
+<section class="b-feat"><div class="wrap" id="b-feat"></div></section>
+
+<section class="n-list b-list" aria-label="書目"><div class="wrap">
+  <div class="b-list__head"><div><div class="kicker">Selected Works</div><h2 class="h2">書目選集</h2></div><p>依主題瀏覽，或輸入書名及關鍵字快速查找。</p></div>
+  <div class="filters">
+    <div class="tabs" aria-label="書目分類"></div>
+    <div class="filters__r"><label class="sr-only" for="b-q">搜尋書名</label><input id="b-q" class="search" type="search" placeholder="搜尋書名"></div>
+  </div>
+  <ul class="b-grid" id="b-grid"></ul>
+  <div class="n-count" aria-live="polite"></div>
+  <p class="b-source-note">出版資訊依現有資料整理；書目與價格以出版單位公告為準。</p>
+  <noscript><p class="n-count">請啟用 JavaScript 以瀏覽書目。</p></noscript>
+</div></section>
+
+<section class="b-news"><div class="wrap">
+  <div><div class="kicker kicker--lt">Monthly · Since 1997</div><h2 class="h2">企業大學通訊</h2><p>每月發行，解析最新稅制變革與財會實務，現已發行至第 532 期。</p></div>
+  <div class="b-news__cta"><a class="btn btn--gold" href="news.html?cat=newsletter">閱讀歷期通訊 →</a></div>
+</div></section>
+</main>
+
+<dialog class="b-dlg" id="b-dlg" aria-labelledby="b-dlg-t"><div class="b-dlg__in"></div></dialog>
+
+<footer class="footer" id="contact"><div class="wrap">
+  <div class="footer__grid">
+    <div><div class="footer__name">財團法人企業大學文教基金會</div><div class="footer__en">TAIWAN INSTITUTE OF BUSINESS</div></div>
+    <address><h4>台中 · 主事務所</h4>403 台中市西區中興街 183 號 9F-2<br><a href="tel:+886423028277">04-2302-8277</a> · <a href="mailto:taichung@tib.org.tw">taichung@tib.org.tw</a></address>
+    <address><h4>台北教室</h4>100 台北市中正區衡陽路 7 號 11F<br><a href="tel:+886223617033">02-2361-7033</a></address>
+    <address><h4>高雄教室</h4>802 高雄市苓雅區中正二路 74 號 9F<br><a href="tel:+88672259090">07-225-9090</a></address>
+  </div>
+  <div class="footer__bottom"><span class="footer__copy">© <span id="yr">2026</span> 財團法人企業大學文教基金會</span>
+    <ul class="footer__qualifications" aria-label="基金會資格"><li>教育部許可設立</li><li>免稅財團法人</li><li>TTQS 銀牌訓練機構</li></ul>
+    <span class="footer__links"><a href="https://www.twstudy.com/teacher/787f6cbf9e29ca300a846b687e1a062e" target="_blank" rel="noopener">行動學習網 ↗</a><a href="https://www.facebook.com/taichung.tib.org.tw" target="_blank" rel="noopener">Facebook ↗</a><a href="https://ojt.wda.gov.tw/" target="_blank" rel="noopener">在職訓練網 ↗</a></span></div>
+</div></footer>
+
+<nav class="dock" aria-label="基金會快速入口">
+  <ul>
+    <li><a href="https://www.facebook.com/taichung.tib.org.tw" target="_blank" rel="noopener" aria-label="Facebook"><b>Facebook</b><span class="dock__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 22v-8h2.8l.4-3.2h-3.2v-2c0-.9.3-1.4 1.6-1.4h1.7V4.6c-.4-.1-1.4-.2-2.6-.2-2.7 0-4.4 1.6-4.4 4.5v1.9H7v3.2h2.8v8h3.7Z"/></svg></span><i aria-hidden="true"></i></a></li>
+    <li><a href="https://www.twstudy.com/teacher/787f6cbf9e29ca300a846b687e1a062e" target="_blank" rel="noopener" aria-label="行動學習網"><b>行動學習網</b><span class="dock__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6.1C9.3 4.7 6.2 4.5 3 5.3v13.3c3.2-.8 6.3-.6 9 1.1 2.7-1.7 5.8-1.9 9-1.1V5.3c-3.2-.8-6.3-.6-9 .8Z"/><path d="M12 6.2v13.4M6 8.5c1.4-.2 2.6 0 3.7.4m5.3 0c1.1-.4 2.3-.6 3.7-.4"/></svg></span><i aria-hidden="true"></i></a></li>
+    <li><a href="https://ojt.wda.gov.tw/" target="_blank" rel="noopener" aria-label="在職訓練網"><b>在職訓練網</b><span class="dock__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7.5" width="18" height="13" rx="1.5"/><path d="M8 7.5V5.8c0-1 .8-1.8 1.8-1.8h4.4c1 0 1.8.8 1.8 1.8v1.7M3 12.5h18m-11 0v2h4v-2"/></svg></span><i aria-hidden="true"></i></a></li>
+  </ul>
+</nav>
+<div class="callbar"><a href="tel:+886423028277">來電洽詢</a><a href="mailto:taichung@tib.org.tw?subject=購書洽詢">購書洽詢</a></div>
+
+<script src="main.js?v=0.16" defer></script>
+<script src="demo-ui.js" defer></script>
+<script src="books-data.js" defer></script>
+<script src="books.js" defer></script>
+</body>
+</html>

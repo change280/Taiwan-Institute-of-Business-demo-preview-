@@ -1,0 +1,69 @@
+{
+  "reviewedAt": "2026-10-14",
+  "asset": {
+    "providedSource": "/Users/micronature/Downloads/TIB財團法人企業大學文教基金會/imgi_1_8b2fe8de02278482348884b7f06cca8c.webp",
+    "sourceDimensions": {
+      "width": 2476,
+      "height": 2057,
+      "hasAlpha": true
+    },
+    "webAsset": "assets/tib-logo.webp",
+    "webDimensions": {
+      "width": 600,
+      "height": 499,
+      "hasAlpha": true
+    },
+    "faviconAsset": "assets/tib-logo-icon.png",
+    "faviconDimensions": {
+      "width": 128,
+      "height": 106,
+      "hasAlpha": true
+    }
+  },
+  "placements": {
+    "pages": [
+      "index.html",
+      "about.html",
+      "courses.html",
+      "teachers.html",
+      "news.html",
+      "publications.html"
+    ],
+    "headerLogoCount": 6,
+    "mobileDrawerLogoCount": 6,
+    "faviconCount": 6
+  },
+  "visualReview": {
+    "page": "publications.html",
+    "viewport": "1280x720",
+    "result": "pass",
+    "notes": [
+      "商標透明背景正常",
+      "桌機導覽中商標清晰且未擠壓標題與選單"
+    ]
+  },
+  "responsiveSizing": {
+    "wide": "48x48 CSS pixel container; Chinese 18px; English 14px",
+    "upTo860": "48x48 CSS pixel container; Chinese 16px; English 12px",
+    "upTo380": "40x40 CSS pixel container; Chinese 13px; English 10px",
+    "menuButtonPreserved": true,
+    "mobileHeaderSourceReview": "PASS; breakpoint declarations and menu flex behavior checked",
+    "mobileScreenshotReview": "NOT_RUN",
+    "notes": "手機 Header 專屬規則放大 Logo 與中英文名稱，手機抽屜維持原尺寸。"
+  },
+  "result": "pass",
+  "mobileHeaderReview": {
+    "result": "PASS_SOURCE_CHECK",
+    "pages": [
+      "index.html",
+      "about.html",
+      "courses.html",
+      "teachers.html",
+      "news.html",
+      "publications.html"
+    ],
+    "stylesheet": "styles.css?v=0.17",
+    "scope": "header only; drawer brand sizing unchanged",
+    "screenshotReview": "NOT_RUN"
+  }
+}

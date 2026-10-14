@@ -1,0 +1,93 @@
+{
+  "reviewedAt": "2026-10-14",
+  "page": "publications.html",
+  "references": [
+    "https://www.crowncpa.com.tw/books.html",
+    "/Users/micronature/Desktop/冠恆/books.html",
+    "/Users/micronature/Desktop/冠恆/book-detail.html"
+  ],
+  "bookCount": 18,
+  "categoryCounts": {
+    "稅法實務": 8,
+    "國際稅與證券": 2,
+    "會計與管理": 3,
+    "法律與治理": 5
+  },
+  "realCoverCount": 12,
+  "responsiveChecks": [
+    {
+      "viewportWidth": 320,
+      "documentWidth": 320,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 375,
+      "documentWidth": 375,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 390,
+      "documentWidth": 390,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 640,
+      "documentWidth": 640,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 768,
+      "documentWidth": 768,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 861,
+      "documentWidth": 861,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 1024,
+      "documentWidth": 1024,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 1280,
+      "documentWidth": 1280,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    },
+    {
+      "viewportWidth": 1440,
+      "documentWidth": 1440,
+      "bookCards": 18,
+      "failedCoverImages": 0
+    }
+  ],
+  "interactions": [
+    "分類『會計與管理』篩選為 3 筆",
+    "關鍵字『國際稅法』搜尋為 1 筆，網址同步帶入 q 參數",
+    "單書詳情視窗顯示作者、出版日期、簡介、規格、目錄與洽詢入口",
+    "390px 手機版分類、搜尋、卡片與詳情視窗可操作"
+  ],
+  "notes": [
+    "書目資料依 CrownCPA 參考頁所列 18 筆整理；空白出版資訊維持空白。",
+    "無實際封面的 6 筆使用明確標示『封面待補』的版面封面。",
+    "瀏覽器檢視時實際書封載入失敗數為 0。"
+  ],
+  "newsletterBandReview": {
+    "section": "Monthly · Since 1997",
+    "background": "linear-gradient(to bottom, var(--ivory) 0%, var(--paper) 100%)",
+    "foreground": "navy and ink colors for contrast",
+    "scope": "publications page .b-news only",
+    "review": "CSS source check passed; screenshot review not run",
+    "texture": "original dot pattern preserved as the top background layer",
+    "gradient_direction": "top to bottom, ivory to beige"
+  }
+}

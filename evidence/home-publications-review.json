@@ -1,0 +1,15 @@
+{
+  "page": "index.html#publications",
+  "status": "pass",
+  "reference": "/Users/micronature/Downloads/TIB Foundation website redesign 2/tib-site/index.html",
+  "reference_pattern": "3:4 .ph.ph--img image frame with object-fit: cover",
+  "checks": {
+    "featured_books": 3,
+    "all_use_clipped_3_4_frames": true,
+    "all_images_use_object_fit_cover": true,
+    "frame_padding_border_background_shadow_removed": true,
+    "scope_limited_to_home_publications": true,
+    "publication_catalog_styles_unchanged": true
+  },
+  "note": "The cover files are preserved. Cropping happens only in the homepage preview frames."
+}

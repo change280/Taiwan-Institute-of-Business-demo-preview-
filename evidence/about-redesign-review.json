@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-14",
+  "scope": "Demo 0.7：全站 Footer 資格列排版、基金會頁視覺更新與六頁共用浮動外連按鍵",
+  "pages": [
+    "index.html",
+    "about.html",
+    "courses.html",
+    "teachers.html",
+    "news.html",
+    "publications.html"
+  ],
+  "checks": {
+    "all_pages_have_one_dock": true,
+    "identical_dock_links_and_order": true,
+    "dock_links": [
+      {
+        "label": "Facebook ↗",
+        "href": "https://www.facebook.com/taichung.tib.org.tw"
+      },
+      {
+        "label": "行動學習網 ↗",
+        "href": "https://www.twstudy.com/teacher/787f6cbf9e29ca300a846b687e1a062e"
+      },
+      {
+        "label": "在職訓練網 ↗",
+        "href": "https://ojt.wda.gov.tw/"
+      }
+    ],
+    "desktop_dock_visible_by_default": true,
+    "mobile_dock_collapsible": true,
+    "top_blue_banner_absent_from_all_pages": true,
+    "all_local_page_resources_exist": true,
+    "all_page_ids_unique": true,
+    "about_history_timeline_present": true,
+    "about_services_between_features_and_founder": true,
+    "about_document_dialogs": {
+      "count": 3,
+      "triggers": [
+        "charter",
+        "org",
+        "basic"
+      ],
+      "implemented_with_native_dialog": true
+    },
+    "javascript_syntax": {
+      "files_checked": [
+        "about-interactions.js",
+        "books-data.js",
+        "books.js",
+        "courses-data.js",
+        "courses.js",
+        "demo-ui.js",
+        "main.js",
+        "news-data.js",
+        "news.js"
+      ],
+      "count": 9,
+      "result": "PASS"
+    },
+    "browser_dom_review": {
+      "page": "about.html",
+      "url": "http://127.0.0.1:18767/about.html",
+      "result": "PASS",
+      "observed": "確認新時間軸、頁面目錄、服務項目、創辦人與法人文件入口及全站外連按鍵的實際頁面結構。"
+    },
+    "new_multiviewport_screenshot_review": {
+      "result": "NOT_RUN",
+      "note": "本輪已核對六頁 Footer 內容與響應式 CSS 斷點，尚未重新產生多尺寸截圖；舊有 54 組量測不代表本輪新版 Footer 已完成視覺量測。"
+    },
+    "all_pages_have_footer_qualifications": true,
+    "footer_qualification_order": [
+      "教育部許可設立",
+      "免稅財團法人",
+      "TTQS 銀牌訓練機構"
+    ],
+    "footer_layout_order": [
+      "版權資訊",
+      "三項資格標籤",
+      "外部連結"
+    ],
+    "homepage_hero_keeps_year_and_main_heading_without_qualification_row": true,
+    "responsive_footer_layout": {
+      "desktop": "單列三欄",
+      "medium": "版權與外連上列，資格標籤次列",
+      "mobile": "依版權、資格、外連順序直向排列"
+    },
+    "browser_footer_dom_review": {
+      "page": "index.html",
+      "url": "http://127.0.0.1:18767/index.html?footer=final#contact",
+      "result": "PASS",
+      "observed": "瀏覽器頁面結構依序呈現版權資訊、三項資格標籤及外部連結。"
+    },
+    "qualification_labels_in_all_page_footers": [
+      "教育部許可設立",
+      "免稅財團法人",
+      "TTQS 銀牌訓練機構"
+    ],
+    "about_history_background": {
+      "background": "var(--ivory)",
+      "grid_texture_removed": true,
+      "timeline_and_content_retained": true,
+      "review": "CSS source check passed; screenshot review not run"
+    },
+    "about_services_content": {
+      "count": 7,
+      "items": [
+        "進企專培",
+        "異企同訓",
+        "協助企業制定及執行教育訓練計畫",
+        "協助企業申請人才培訓補助",
+        "開辦勞動部勞動力發展署產業人力投資計畫各項課程",
+        "企業大學自行規劃主題式完整基礎及進階課程",
+        "書籍/刊物出版"
+      ],
+      "review": "HTML source content and numbered item count checked; screenshot review not run"
+    }
+  }
+}

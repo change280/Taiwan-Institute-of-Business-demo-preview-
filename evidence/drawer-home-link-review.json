@@ -1,0 +1,26 @@
+{
+  "reviewedAt": "2026-10-14",
+  "demoVersion": "0.18",
+  "scope": "mobile and desktop navigation drawer brand link",
+  "pages": [
+    "index.html",
+    "about.html",
+    "courses.html",
+    "teachers.html",
+    "news.html",
+    "publications.html"
+  ],
+  "checks": {
+    "drawerBrandBlocks": 6,
+    "brandLinksPointTo": "index.html",
+    "logoAndFoundationTitleShareOneLink": true,
+    "accessibleNamePresent": true,
+    "drawerCloseControlsPreserved": 6,
+    "drawerNavigationPreserved": 6,
+    "result": "PASS_SOURCE_CHECK",
+    "screenshotReview": "NOT_RUN",
+    "browserBehaviorReview": "NOT_RUN",
+    "browserBehaviorReviewReason": "The existing localhost preview refused the page reload."
+  },
+  "notes": "逐頁檢查抽屜頂部品牌連結包含商標與基金會名稱；連結使用相對路徑，從六個展示頁皆回到首頁。"
+}

@@ -1,0 +1,76 @@
+{
+  "reviewedAt": "2026-10-14",
+  "result": "pass",
+  "method": "Codex in-app browser on local static preview",
+  "responsiveCheck": {
+    "pageCount": 5,
+    "widthsPx": [
+      320,
+      375,
+      390,
+      640,
+      768,
+      861,
+      1024,
+      1280,
+      1440
+    ],
+    "cases": 45,
+    "documentWidthMatchesViewport": true,
+    "horizontalOverflowCases": 0,
+    "loadedImageFailures": 0
+  },
+  "visualSpotChecks": [
+    {
+      "page": "index",
+      "viewport": "1440x1000",
+      "items": [
+        "閱讀情境首頁主視覺",
+        "張進德博士肖像",
+        "三本實際書封"
+      ]
+    },
+    {
+      "page": "about",
+      "viewport": "1440x1000",
+      "items": [
+        "創辦人肖像與學經歷區塊"
+      ]
+    },
+    {
+      "page": "courses",
+      "viewport": "1440x1000",
+      "items": [
+        "課程授課情境示意照與精選課程卡"
+      ]
+    },
+    {
+      "page": "teachers",
+      "viewports": [
+        "1440x1000",
+        "390x844"
+      ],
+      "items": [
+        "張進德博士肖像",
+        "手機裁切保留臉部"
+      ]
+    },
+    {
+      "page": "news",
+      "viewport": "390x844",
+      "items": [
+        "財務討論情境示意照與消息焦點"
+      ]
+    }
+  ],
+  "assets": [
+    "hero-editorial.webp",
+    "founder-chang.webp",
+    "course-session-example.webp",
+    "finance-review-example.webp",
+    "book-latest-tax-law.webp",
+    "book-estate-gift-tax.webp",
+    "book-religious-foundations.webp"
+  ],
+  "screenshotNote": "49 張照片補強前截圖已移入 screenshots/baseline-before-photo-refresh/，僅作上一輪版面基準。"
+}

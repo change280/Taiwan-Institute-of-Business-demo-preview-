@@ -1,0 +1,30 @@
+{
+  "reviewedAt": "2026-10-14",
+  "demoVersion": "0.20",
+  "status": "CANCELED_BY_USER",
+  "scope": {
+    "pages": [
+      "index.html",
+      "about.html",
+      "courses.html",
+      "teachers.html",
+      "news.html",
+      "publications.html"
+    ],
+    "canceledFeature": "全站章節視差、Hero 環線與描線、圖片位移、段落進場、桌機照片置留"
+  },
+  "reverted": [
+    "移除 styles.css 中 Demo 0.19 新增的視差樣式區塊。",
+    "六頁共用樣式連結由 styles.css?v=0.18 回復至 styles.css?v=0.17。"
+  ],
+  "preserved": [
+    "六頁原有版面、圖片與互動。",
+    "漢堡選單頂部 Logo 與標題連結至首頁。"
+  ],
+  "verification": {
+    "pagesRestoredToStylesV017": 6,
+    "parallaxRulesRemaining": false,
+    "mobileDrawerBrandLinksToHome": 6,
+    "browserVisualReview": "NOT_RUN"
+  }
+}
