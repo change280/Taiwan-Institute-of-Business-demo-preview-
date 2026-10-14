@@ -1,0 +1,763 @@
+{
+  "sourceSnapshotDate": "2026-10-14",
+  "source": {
+    "name": "TIB 原版網站公開課程分類頁",
+    "snapshotDate": "2026-10-14",
+    "categoryUrls": [
+      "https://www.tib.org.tw/product_cg360632.html",
+      "https://www.tib.org.tw/product_cg360633.html",
+      "https://www.tib.org.tw/product_cg360631.html",
+      "https://www.tib.org.tw/product_cg360634.html",
+      "https://www.tib.org.tw/product_cg360644.html"
+    ],
+    "latestCategoryUrl": "https://www.tib.org.tw/product_cg363086.html",
+    "note": "依原站課程分類頁匯入公開課程與研討會紀錄；同一課程出現在最新課程與年度分類時合併為一筆，並保留兩個原站錨點。"
+  },
+  "uniqueRecords": 55,
+  "sourceIds": 56,
+  "categoryCounts": {
+    "tax": 25,
+    "finance": 11,
+    "accounting": 14,
+    "management": 1,
+    "seminar": 4
+  },
+  "withCourseCode": 23,
+  "withTeacher": 24,
+  "withDate": 55,
+  "withHours": 28,
+  "withSyllabusRows": 30,
+  "withImages": 55,
+  "recordsWithoutStableId": [],
+  "recordsWithMissingTitles": 0,
+  "records": [
+    {
+      "id": "1704040",
+      "sourceIds": [
+        "1704040",
+        "1704041"
+      ],
+      "title": "115/04/11成本會計實務與查稅實務班",
+      "category": "會計類",
+      "year": "115",
+      "code": "170657",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1704040",
+        "https://www.tib.org.tw/product_cg363086.html#1704041"
+      ]
+    },
+    {
+      "id": "1683320",
+      "sourceIds": [
+        "1683320"
+      ],
+      "title": "企業運用租稅法規策略分析班第01期",
+      "category": "財稅類",
+      "year": "114",
+      "code": "166459",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1683320"
+      ]
+    },
+    {
+      "id": "1683319",
+      "sourceIds": [
+        "1683319"
+      ],
+      "title": "成本會計實務與查稅實務班第01期",
+      "category": "會計類",
+      "year": "114",
+      "code": "166458",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1683319"
+      ]
+    },
+    {
+      "id": "1669724",
+      "sourceIds": [
+        "1669724"
+      ],
+      "title": "114/8/28 企業租稅法律風險管理 研討會",
+      "category": "研討會",
+      "year": "114",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360644.html#1669724"
+      ]
+    },
+    {
+      "id": "1662614",
+      "sourceIds": [
+        "1662614"
+      ],
+      "title": "企業節稅策略分析班第01期",
+      "category": "財稅類",
+      "year": "114",
+      "code": "163887",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1662614"
+      ]
+    },
+    {
+      "id": "1662613",
+      "sourceIds": [
+        "1662613"
+      ],
+      "title": "成本會計實務與查稅實務班第01期",
+      "category": "會計類",
+      "year": "114",
+      "code": "163886",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1662613"
+      ]
+    },
+    {
+      "id": "1594149",
+      "sourceIds": [
+        "1594149"
+      ],
+      "title": "財報分析與企業診斷班第01期",
+      "category": "財務類",
+      "year": "113",
+      "code": "155795",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1594149"
+      ]
+    },
+    {
+      "id": "1594148",
+      "sourceIds": [
+        "1594148"
+      ],
+      "title": "租稅行政救濟實務班第01期",
+      "category": "財稅類",
+      "year": "113",
+      "code": "155794",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1594148"
+      ]
+    },
+    {
+      "id": "1594140",
+      "sourceIds": [
+        "1594140"
+      ],
+      "title": "企業財務會計準則運用班第01期",
+      "category": "財務類",
+      "year": "113",
+      "code": "155793",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1594140"
+      ]
+    },
+    {
+      "id": "1594121",
+      "sourceIds": [
+        "1594121"
+      ],
+      "title": "成本會計實務與查稅實務班第01期",
+      "category": "會計類",
+      "year": "113",
+      "code": "155792",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1594121"
+      ]
+    },
+    {
+      "id": "1594120",
+      "sourceIds": [
+        "1594120"
+      ],
+      "title": "財報分析與企業診斷班第02期",
+      "category": "財務類",
+      "year": "113",
+      "code": "155791",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1594120"
+      ]
+    },
+    {
+      "id": "1565692",
+      "sourceIds": [
+        "1565692"
+      ],
+      "title": "最新國際稅法解說及實務操作班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "151586",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1565692"
+      ]
+    },
+    {
+      "id": "1565691",
+      "sourceIds": [
+        "1565691"
+      ],
+      "title": "企業節稅策略分析班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "151585",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1565691"
+      ]
+    },
+    {
+      "id": "1565690",
+      "sourceIds": [
+        "1565690"
+      ],
+      "title": "企業評價基礎班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "151583",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1565690"
+      ]
+    },
+    {
+      "id": "1565689",
+      "sourceIds": [
+        "1565689"
+      ],
+      "title": "財報分析與企業診斷班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "151581",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1565689"
+      ]
+    },
+    {
+      "id": "1565687",
+      "sourceIds": [
+        "1565687"
+      ],
+      "title": "企業舞弊風險管理基礎班第01期",
+      "category": "會計類",
+      "year": "112",
+      "code": "151580",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1565687"
+      ]
+    },
+    {
+      "id": "1565685",
+      "sourceIds": [
+        "1565685"
+      ],
+      "title": "成本會計實務與查稅實務班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "151579",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1565685"
+      ]
+    },
+    {
+      "id": "1565684",
+      "sourceIds": [
+        "1565684"
+      ],
+      "title": "企業海內外轉投資之財務議題及租稅實務班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "151578",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1565684"
+      ]
+    },
+    {
+      "id": "1565683",
+      "sourceIds": [
+        "1565683"
+      ],
+      "title": "從節稅技巧方向來闡釋稅 務申報實務班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "151577",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1565683"
+      ]
+    },
+    {
+      "id": "1542979",
+      "sourceIds": [
+        "1542979"
+      ],
+      "title": "最新國際稅法解說及實務操作班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "147480",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1542979"
+      ]
+    },
+    {
+      "id": "1542977",
+      "sourceIds": [
+        "1542977"
+      ],
+      "title": "企業節稅策略分析班第01期",
+      "category": "財稅類",
+      "year": "112",
+      "code": "147479",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1542977"
+      ]
+    },
+    {
+      "id": "1542975",
+      "sourceIds": [
+        "1542975"
+      ],
+      "title": "企業有效成本管控設計介紹班第01期",
+      "category": "會計類",
+      "year": "112",
+      "code": "147478",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1542975"
+      ]
+    },
+    {
+      "id": "1542966",
+      "sourceIds": [
+        "1542966"
+      ],
+      "title": "成本會計實務與查稅實務班第01期",
+      "category": "會計類",
+      "year": "112",
+      "code": "147476",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1542966"
+      ]
+    },
+    {
+      "id": "1542926",
+      "sourceIds": [
+        "1542926"
+      ],
+      "title": "財報分析與企業診斷班第01期",
+      "category": "財務類",
+      "year": "112",
+      "code": "147474",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1542926"
+      ]
+    },
+    {
+      "id": "1506850",
+      "sourceIds": [
+        "1506850"
+      ],
+      "title": "成本會計實務與查稅實務班第01期",
+      "category": "財務類",
+      "year": "111",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1506850"
+      ]
+    },
+    {
+      "id": "1506836",
+      "sourceIds": [
+        "1506836"
+      ],
+      "title": "從節稅技巧方向來闡釋稅務申報實務班第01期",
+      "category": "財稅類",
+      "year": "111",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1506836"
+      ]
+    },
+    {
+      "id": "1506812",
+      "sourceIds": [
+        "1506812"
+      ],
+      "title": "企業有效成本管控設計介紹班第01期",
+      "category": "財務類",
+      "year": "111",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1506812"
+      ]
+    },
+    {
+      "id": "1446056",
+      "sourceIds": [
+        "1446056"
+      ],
+      "title": "解析財務報表基礎班第01期",
+      "category": "財稅類",
+      "year": "111",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1446056"
+      ]
+    },
+    {
+      "id": "1446055",
+      "sourceIds": [
+        "1446055"
+      ],
+      "title": "稅務申報實務班第01期",
+      "category": "財稅類",
+      "year": "111",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1446055"
+      ]
+    },
+    {
+      "id": "1439816",
+      "sourceIds": [
+        "1439816"
+      ],
+      "title": "營業稅與營利事業所得稅相關課稅實務解析班",
+      "category": "財稅類",
+      "year": "110",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1439816"
+      ]
+    },
+    {
+      "id": "1437697",
+      "sourceIds": [
+        "1437697"
+      ],
+      "title": "109年度上半年理財投資實務基礎班",
+      "category": "財務類",
+      "year": "109",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1437697"
+      ]
+    },
+    {
+      "id": "1437700",
+      "sourceIds": [
+        "1437700"
+      ],
+      "title": "109年度上半年解析財務報表基礎班",
+      "category": "財務類",
+      "year": "109",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1437700"
+      ]
+    },
+    {
+      "id": "1437698",
+      "sourceIds": [
+        "1437698"
+      ],
+      "title": "109年度上半年稅務申報實務班",
+      "category": "財稅類",
+      "year": "109",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437698"
+      ]
+    },
+    {
+      "id": "1437696",
+      "sourceIds": [
+        "1437696"
+      ],
+      "title": "108年度下半年企業基礎會計班",
+      "category": "會計類",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1437696"
+      ]
+    },
+    {
+      "id": "1437699",
+      "sourceIds": [
+        "1437699"
+      ],
+      "title": "108年度下半年企業基礎會計班_複製",
+      "category": "會計類",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1437699"
+      ]
+    },
+    {
+      "id": "1437695",
+      "sourceIds": [
+        "1437695"
+      ],
+      "title": "108年度下半年理財投資實務進階班",
+      "category": "財務類",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1437695"
+      ]
+    },
+    {
+      "id": "1437694",
+      "sourceIds": [
+        "1437694"
+      ],
+      "title": "108年度下半年稅務申報實務班",
+      "category": "財稅類",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437694"
+      ]
+    },
+    {
+      "id": "1437672",
+      "sourceIds": [
+        "1437672"
+      ],
+      "title": "108年度上半年基礎會計帳務處理實務班",
+      "category": "會計類",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1437672"
+      ]
+    },
+    {
+      "id": "1437670",
+      "sourceIds": [
+        "1437670"
+      ],
+      "title": "108年度上半年稅務申報實務班",
+      "category": "財稅類",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437670"
+      ]
+    },
+    {
+      "id": "1437671",
+      "sourceIds": [
+        "1437671"
+      ],
+      "title": "108年度上半年理財投資實務基礎班",
+      "category": "財務類",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1437671"
+      ]
+    },
+    {
+      "id": "1437689",
+      "sourceIds": [
+        "1437689"
+      ],
+      "title": "107年度下半年基礎會計班",
+      "category": "會計類",
+      "year": "107",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1437689"
+      ]
+    },
+    {
+      "id": "1437690",
+      "sourceIds": [
+        "1437690"
+      ],
+      "title": "107年度下半年稅務申報實務班",
+      "category": "財稅類",
+      "year": "107",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437690"
+      ]
+    },
+    {
+      "id": "1437692",
+      "sourceIds": [
+        "1437692"
+      ],
+      "title": "108年度 - 台日企業經營論壇",
+      "category": "研討會",
+      "year": "108",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360644.html#1437692"
+      ]
+    },
+    {
+      "id": "1437687",
+      "sourceIds": [
+        "1437687"
+      ],
+      "title": "107年度上半年人力資源管理選訓用留班",
+      "category": "管理類",
+      "year": "107",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360634.html#1437687"
+      ]
+    },
+    {
+      "id": "1437688",
+      "sourceIds": [
+        "1437688"
+      ],
+      "title": "107年度上半年基礎會計班",
+      "category": "會計類",
+      "year": "107",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1437688"
+      ]
+    },
+    {
+      "id": "1437693",
+      "sourceIds": [
+        "1437693"
+      ],
+      "title": "107年度上半年解析財務報表基礎班",
+      "category": "財務類",
+      "year": "107",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360633.html#1437693"
+      ]
+    },
+    {
+      "id": "1437686",
+      "sourceIds": [
+        "1437686"
+      ],
+      "title": "107年度上半年稅務申報實務班",
+      "category": "財稅類",
+      "year": "107",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437686"
+      ]
+    },
+    {
+      "id": "1437691",
+      "sourceIds": [
+        "1437691"
+      ],
+      "title": "107年度 - 不可不知的勞基法從一例一休談起",
+      "category": "研討會",
+      "year": "107",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360644.html#1437691"
+      ]
+    },
+    {
+      "id": "1437685",
+      "sourceIds": [
+        "1437685"
+      ],
+      "title": "106年度下半年稅務申報實務班",
+      "category": "財稅類",
+      "year": "106",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437685"
+      ]
+    },
+    {
+      "id": "1437684",
+      "sourceIds": [
+        "1437684"
+      ],
+      "title": "106年度下半年營業稅與營利事業所得稅相關課稅實務解析班",
+      "category": "財稅類",
+      "year": "106",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437684"
+      ]
+    },
+    {
+      "id": "1437683",
+      "sourceIds": [
+        "1437683"
+      ],
+      "title": "106年度上半年稅務申報實務班",
+      "category": "財稅類",
+      "year": "106",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437683"
+      ]
+    },
+    {
+      "id": "1437682",
+      "sourceIds": [
+        "1437682"
+      ],
+      "title": "106年度上半年基礎會計帳務處理實務班",
+      "category": "會計類",
+      "year": "106",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1437682"
+      ]
+    },
+    {
+      "id": "1437681",
+      "sourceIds": [
+        "1437681"
+      ],
+      "title": "106年度上半年營業稅與營利事業所得稅相關課稅實務解析班",
+      "category": "財稅類",
+      "year": "106",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360632.html#1437681"
+      ]
+    },
+    {
+      "id": "1437680",
+      "sourceIds": [
+        "1437680"
+      ],
+      "title": "106年度上半年與國際接軌的企業會計實務班",
+      "category": "會計類",
+      "year": "106",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360631.html#1437680"
+      ]
+    },
+    {
+      "id": "1437679",
+      "sourceIds": [
+        "1437679"
+      ],
+      "title": "106年度 - 會計與財經法律論壇",
+      "category": "研討會",
+      "year": "106",
+      "code": "",
+      "sourceUrls": [
+        "https://www.tib.org.tw/product_cg360644.html#1437679"
+      ]
+    }
+  ],
+  "courseCount": 51,
+  "seminarCount": 4,
+  "withExactClassDate": 27,
+  "withSourceText": 55,
+  "withOriginalSourceAnchor": 55,
+  "withRegistrationUrl": 23,
+  "withTeacherBiography": 16,
+  "duplicateLatestIdsMerged": [
+    "1704041"
+  ],
+  "recordCoverageNote": "五個原站課程／研討會根分類頁的 55 筆紀錄；另檢查最新課程分類，將與會計類 115 年度相同的班級併入同筆，不把出版品或師資商品列為課程。"
+}

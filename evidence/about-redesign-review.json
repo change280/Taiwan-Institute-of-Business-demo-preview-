@@ -1,6 +1,6 @@
 {
   "date": "2026-10-14",
-  "scope": "Demo 0.7：全站 Footer 資格列排版、基金會頁視覺更新與六頁共用浮動外連按鍵",
+  "scope": "Demo 0.26：關於基金會頁「02 · Mission & Vision」與「03 · Distinctions」視覺改版，延續全站 Footer 與浮動外連按鍵驗收",
   "pages": [
     "index.html",
     "about.html",
@@ -27,7 +27,7 @@
       }
     ],
     "desktop_dock_visible_by_default": true,
-    "mobile_dock_collapsible": true,
+    "mobile_dock_collapsible": false,
     "top_blue_banner_absent_from_all_pages": true,
     "all_local_page_resources_exist": true,
     "all_page_ids_unique": true,
@@ -57,15 +57,9 @@
       "count": 9,
       "result": "PASS"
     },
-    "browser_dom_review": {
-      "page": "about.html",
-      "url": "http://127.0.0.1:18767/about.html",
-      "result": "PASS",
-      "observed": "確認新時間軸、頁面目錄、服務項目、創辦人與法人文件入口及全站外連按鍵的實際頁面結構。"
-    },
     "new_multiviewport_screenshot_review": {
       "result": "NOT_RUN",
-      "note": "本輪已核對六頁 Footer 內容與響應式 CSS 斷點，尚未重新產生多尺寸截圖；舊有 54 組量測不代表本輪新版 Footer 已完成視覺量測。"
+      "note": "本輪已完成來源 HTML／CSS 結構檢查；尚未進行瀏覽器 DOM 或多尺寸截圖目視驗收。"
     },
     "all_pages_have_footer_qualifications": true,
     "footer_qualification_order": [
@@ -78,7 +72,6 @@
       "三項資格標籤",
       "外部連結"
     ],
-    "homepage_hero_keeps_year_and_main_heading_without_qualification_row": true,
     "responsive_footer_layout": {
       "desktop": "單列三欄",
       "medium": "版權與外連上列，資格標籤次列",
@@ -113,6 +106,98 @@
         "書籍/刊物出版"
       ],
       "review": "HTML source content and numbered item count checked; screenshot review not run"
+    },
+    "homepage_hero_has_qualification_row": true,
+    "previous_version_browser_dom_review": {
+      "page": "about.html",
+      "url": "http://127.0.0.1:18767/about.html",
+      "result": "PASS",
+      "observed": "確認新時間軸、頁面目錄、服務項目、創辦人與法人文件入口及全站外連按鍵的實際頁面結構。"
+    },
+    "about_mission_vision_structure": {
+      "reference": "/Users/micronature/Downloads/TIB Foundation website redesign 3/tib-site/about.html",
+      "sectionId": "vision",
+      "title": "02 · Mission & Vision｜宗旨與願景",
+      "missionStatement": "以成為專業教育資源訓練發展中心、成為企業最佳夥伴為願景",
+      "purposeCount": 4,
+      "purposeMarkers": [
+        "I",
+        "II",
+        "III",
+        "IV"
+      ],
+      "outlookCount": 6,
+      "responsiveColumns": {
+        "desktop": "4項宗旨／6項展望",
+        "medium": "2欄宗旨／3欄展望",
+        "mobile": "直向宗旨／雙欄展望"
+      },
+      "sourceReview": "PASS"
+    },
+    "about_distinctions_structure": {
+      "sectionId": "features",
+      "title": "03 · Distinctions｜四大特色",
+      "distinctionCount": 4,
+      "ttqsMilestoneCount": 8,
+      "flowBackground": "較深紙色漸層至淺象牙紙色，背景網格從上至下逐步淡出",
+      "existingContentAndYearsRetained": true,
+      "sourceReview": "PASS",
+      "backgroundTransition": {
+        "gradientDirection": "由上而下",
+        "outlookStart": "var(--paper)",
+        "transitionStops": [
+          "18% var(--paper-hi)",
+          "34% var(--ivory)"
+        ],
+        "distinctionsBase": "var(--ivory)",
+        "dotGridRetained": true,
+        "outlookOwnBackground": "transparent",
+        "sourceReview": "PASS",
+        "browserVisualReview": "NOT_RUN",
+        "gridFade": {
+          "layer": "獨立 ::before 網格層",
+          "maskProperties": [
+            "-webkit-mask-image",
+            "mask-image"
+          ],
+          "direction": "上方不透明、下方透明",
+          "sourceReview": "PASS",
+          "browserVisualReview": "NOT_RUN",
+          "spacingAfterOutlook": "48px",
+          "spacingSourceReview": "PASS"
+        }
+      }
+    },
+    "browser_dom_review": {
+      "page": "about.html",
+      "url": "http://127.0.0.1:18767/about.html?demo=0.26",
+      "result": "NOT_RUN",
+      "observed": "本機 HTTP 預覽連線遭拒；既有 file:// 頁面不在瀏覽器觀察政策允許範圍內。"
+    },
+    "about_html_structure_check": {
+      "result": "PASS",
+      "balancedTags": true,
+      "duplicateIds": 0,
+      "unresolvedStaticAnchors": 0,
+      "missionPurposes": 4,
+      "outlookItems": 6,
+      "distinctions": 4,
+      "ttqsMilestones": 8
+    },
+    "about_css_scope_check": {
+      "result": "PASS",
+      "newStylesheet": "about-page.css?v=0.19",
+      "sharedStylesheet": "styles.css?v=0.18",
+      "obsoleteMissionSelectorsRemoved": true,
+      "referenceTextureVariablesAvailable": true,
+      "browserComputedStyleReview": "NOT_RUN",
+      "gridFadeMask": {
+        "gridSeparatedFromColorGradient": true,
+        "webkitFallbackPresent": true,
+        "bottomFadeTarget": "transparent",
+        "sourceReview": "PASS"
+      },
+      "outlookToDistinctionsGap": "48px"
     }
   }
 }

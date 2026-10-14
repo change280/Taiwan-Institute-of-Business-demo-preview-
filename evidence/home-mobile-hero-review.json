@@ -1,6 +1,6 @@
 {
   "reviewedAt": "2026-10-14",
-  "demoVersion": "0.22",
+  "demoVersion": "0.23",
   "scope": {
     "page": "index.html",
     "mobileBreakpoint": "max-width:640px",

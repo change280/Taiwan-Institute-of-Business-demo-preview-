@@ -250,23 +250,6 @@ p{margin:0}
 .timeline .is-now time{color:var(--gold-ink)}
 .timeline p{font-family:var(--sans);font-size:14px;line-height:1.8;color:var(--ink-2);margin-top:6px}
 
-.a-vision{background:var(--tex-dots),var(--navy);color:var(--ivory)}
-.a-vision .wrap{padding-top:96px;padding-bottom:96px}
-.a-vision .kicker{color:var(--gold-lt)}
-.a-vision__statement{font-size:30px;line-height:1.75;letter-spacing:.04em;text-wrap:pretty}
-.a-vision__statement em{font-style:normal;color:var(--gold-lt)}
-.aims{list-style:none;margin:56px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(201,168,98,.4);font-family:var(--sans);font-size:15px;line-height:1.8}
-.aims li{padding:22px 20px 0;border-left:1px solid rgba(201,168,98,.25)}
-.aims li:first-child{padding-left:0;border-left:0}
-.aims i{display:block;font-style:normal;font-family:var(--latin);font-size:20px;color:var(--gold-lt);margin-bottom:8px}
-.outlook{margin-top:80px;padding-top:40px;border-top:1px solid rgba(201,168,98,.25)}
-.outlook h3{font-family:var(--sans);font-size:13px;letter-spacing:.2em;color:var(--gold-lt);font-weight:400;margin-bottom:24px}
-.outlook__grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;font-family:var(--sans)}
-.outlook__grid div{border:1px solid rgba(201,168,98,.3);padding:24px}
-.outlook__grid h4{font-family:var(--serif);font-weight:500;font-size:19px;margin:0 0 8px}
-.outlook__grid p{font-size:13px;line-height:1.85;color:var(--on-navy)}
-
-#features{background:var(--tex-ledger)}
 .feats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-top:1px solid var(--navy)}
 .feat{padding:32px 32px 32px 0;border-bottom:1px solid var(--rule)}
 .feat:nth-child(3){padding:32px 0 32px 32px;border-left:1px solid var(--rule)}
@@ -341,11 +324,6 @@ p{margin:0}
   .timeline::before{display:none}
   .timeline li::before{position:absolute;left:-29px;top:8px;width:13px;height:13px}
   .timeline time{margin-top:0;font-size:24px}
-  .aims{grid-template-columns:1fr;margin-top:28px}
-  .aims li,.aims li:first-child{display:grid;grid-template-columns:36px minmax(0,1fr);padding:14px 0;border-left:0;border-bottom:1px solid rgba(201,168,98,.3)}
-  .aims i{margin:0;font-size:16px}
-  .outlook{margin-top:40px}
-  .outlook__grid{grid-template-columns:1fr 1fr}
   .feats{grid-template-columns:1fr}
   .feat,.feat:nth-child(3),.feat--wide{grid-column:auto;padding:22px 0;border-left:0}
   .feat--row{grid-template-columns:1fr;gap:16px}
@@ -369,9 +347,7 @@ p{margin:0}
   [id]{scroll-margin-top:130px}
   .a-hero h1{font-size:36px;margin:16px 0 18px}
   .a-hero__lead{font-size:16px}
-  .a-sec .wrap,.a-vision .wrap,.a-founder .wrap{padding-top:48px;padding-bottom:48px}
-  .a-vision__statement{font-size:20px;line-height:1.85}
-  .outlook__grid{grid-template-columns:1fr}
+  .a-sec .wrap,.a-founder .wrap{padding-top:48px;padding-bottom:48px}
   .a-founder__photo{margin:28px 0 0 12px}
   .a-founder__body{padding-top:16px}
   .a-founder h2{font-size:32px;letter-spacing:.14em}
