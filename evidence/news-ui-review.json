@@ -1,0 +1,64 @@
+{
+  "page": "news.html",
+  "sourceSnapshot": "2026-10-14",
+  "browser": "Chrome",
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 900,
+      "documentWidth": 1280,
+      "visibleFeaturedRecords": 2,
+      "groupCounts": {
+        "all": 179,
+        "newsletter": 96,
+        "events": 26,
+        "ttip": 35,
+        "media": 13,
+        "honors": 6,
+        "elearning": 3
+      },
+      "floatingLinks": 3
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "documentWidth": 390,
+      "archiveCardRight": 310,
+      "floatingDockLeft": 326,
+      "visibleFloatingLinks": 3
+    },
+    {
+      "width": 320,
+      "height": 780,
+      "documentWidth": 320,
+      "archiveCardRight": 248,
+      "floatingDockLeft": 256,
+      "visibleFloatingLinks": 3
+    }
+  ],
+  "filterCheck": {
+    "group": "events",
+    "groupCount": 26,
+    "sourceCategoryId": "121220",
+    "sourceCategoryName": "稅務講習",
+    "sourceCategoryCount": 8,
+    "keyword": "秋季講座",
+    "resultCount": 1,
+    "recordId": "539996"
+  },
+  "detailCheck": {
+    "recordId": "539996",
+    "sourceDate": "原站未載精確發布日期",
+    "sourceCategoryPath": "企大相關活動 / 稅務講習",
+    "bodyParagraphs": 35,
+    "sourceLinks": 1,
+    "sourceUrl": "https://www.tib.org.tw/hot_539996.html"
+  },
+  "imageFallbackCheck": {
+    "recordId": "532975",
+    "sourceImageCount": 7,
+    "loadedInPreview": 0,
+    "fallback": "顯示原站圖片數與原站詳情入口"
+  },
+  "browserConsoleErrors": 0
+}
