@@ -12,7 +12,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif+TC:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="styles.css?v=0.17">
+<link rel="stylesheet" href="styles.css?v=0.18">
+<link rel="stylesheet" href="courses-extra.css?v=0.1">
 <link rel="stylesheet" href="floating-dock.css?v=0.16">
 </head>
 <body>
@@ -46,34 +47,36 @@
     <nav class="crumb" aria-label="麵包屑"><a href="index.html">首頁</a><span>/</span><span aria-current="page">課程資訊</span></nav>
     <div class="kicker kicker--rule">Courses</div>
     <h1>課程資訊</h1>
-    <p class="n-hero__lead">財稅、財務、會計與管理實務課程，於台北、台中、高雄三地開班；多數課程適用勞動部「產業人才投資方案」補助。</p>
+    <p class="n-hero__lead">依原站公開資料整理歷年財稅、財務、會計、管理課程與研討會。可按類別、年度或關鍵字查找，並開啟每筆紀錄查看課程資訊與原始來源。</p>
   </div>
-  <div class="subscribe"><div class="subscribe__tag">課程諮詢</div><a href="tel:+886423019209" class="t-tel">04-2301-9209</a><p class="t-hours">週一至週五 09:00–12:00 / 13:30–18:00<br><a href="mailto:taichung@tib.org.tw">taichung@tib.org.tw</a></p></div>
+  <div class="subscribe"><div class="subscribe__tag">原站資料範圍</div><div class="course-hero__years">106—115 <span>年度</span></div><p class="t-hours">課程紀錄依原站分類頁整理<br><a href="https://www.tib.org.tw/product.html" target="_blank" rel="noopener">查看原版課程資訊 ↗</a></p></div>
 </div></section>
 
-<section class="c-feat"><div class="wrap"><div class="c-feat__box" id="featured"></div></div></section>
+<section class="c-feat" aria-label="課程資料摘要"><div class="wrap"><div class="c-feat__box" id="featured"></div></div></section>
 
 <section class="n-list" aria-label="課程列表"><div class="wrap">
   <div class="filters">
     <div class="tabs" role="tablist" aria-label="課程類別"></div>
     <div class="filters__r">
-      <button type="button" class="chk" id="f-open" aria-pressed="false"><span aria-hidden="true"></span>只看報名中</button>
-      <label class="sr-only" for="f-loc">地點</label>
-      <select id="f-loc" class="select"><option value="">全部地點</option><option>台北</option><option>台中</option><option>高雄</option></select>
+      <label class="sr-only" for="f-year">年度</label>
+      <select id="f-year" class="select"><option value="">全部年度</option></select>
+      <label class="sr-only" for="f-q">搜尋課程</label>
+      <input id="f-q" class="search" type="search" placeholder="搜尋課程、講師或課綱…">
     </div>
   </div>
-  <div class="c-head" aria-hidden="true"><span>開課日期</span><span>課程</span><span>時段 / 時數</span><span>地點</span><span>費用</span><span>狀態</span></div>
-  <div id="rows"></div>
-  <div class="n-count" aria-live="polite"></div>
-  <noscript><p class="n-count">請啟用 JavaScript 以瀏覽課程列表，或前往 <a href="https://ojt.wda.gov.tw/">在職訓練網</a> 查詢。</p></noscript>
+  <div class="n-count" id="course-count" aria-live="polite"></div>
+  <div class="rows" id="rows"></div>
+  <nav class="pager" aria-label="課程分頁"></nav>
+  <button class="more" type="button" hidden>載入更多課程</button>
+  <noscript><p class="n-count">請啟用 JavaScript 以瀏覽完整課程紀錄，或前往 <a href="https://www.tib.org.tw/product.html">TIB 原版課程資訊</a>。</p></noscript>
 </div></section>
 
 <section class="a-sec"><div class="wrap a-split" style="border-top:1px solid var(--rule)">
   <div style="padding-top:56px"><div class="kicker">How to Enrol</div><h2 class="h2">報名流程</h2></div>
   <ol class="steps">
-    <li><b>01</b><h3>查詢課程代碼</h3><p>於本頁或簡章取得課程代碼，或掃描課程 QR Code。</p></li>
-    <li><b>02</b><h3>在職訓練網報名</h3><p>正式招生時可依核准資訊前往勞動部在職訓練網。本次展示提供<a href="#demo-dialog" data-demo-preview="registration">報名流程示意</a>。</p></li>
-    <li><b>03</b><h3>開課通知與上課</h3><p>本會於開課前寄送通知；結訓後享終身財稅諮詢。</p></li>
+    <li><b>01</b><h3>瀏覽歷年課程</h3><p>依課程類別、年度與關鍵字尋找原站公開紀錄。</p></li>
+    <li><b>02</b><h3>閱讀單筆資訊</h3><p>開啟課程詳情，查看師資、報名與上課日期、時數、費用及原站課綱。</p></li>
+    <li><b>03</b><h3>確認新班期</h3><p>列表所列為原站公開的歷年資料；新開班及報名狀態請以基金會最新公告為準。</p></li>
   </ol>
 </div></section>
 </main>
@@ -101,7 +104,7 @@
 
 <script src="courses-data.js" defer></script>
 <script src="main.js?v=0.16" defer></script>
-<script src="courses.js" defer></script>
+<script src="courses.js?v=0.2" defer></script>
 <script src="demo-ui.js" defer></script>
 </body>
 </html>
