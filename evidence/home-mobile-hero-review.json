@@ -1,0 +1,27 @@
+{
+  "reviewedAt": "2026-10-14",
+  "demoVersion": "0.22",
+  "scope": {
+    "page": "index.html",
+    "mobileBreakpoint": "max-width:640px",
+    "layout": "全寬主圖置頂；象牙白文字卡跨疊照片下緣；兩個 CTA 並排。"
+  },
+  "design": {
+    "desktopAndMobileHeroImage": "assets/hero-editorial.webp",
+    "mobileUsesSameImageAsDesktop": true,
+    "heroQualifications": ["教育部許可設立", "免稅財團法人", "TTQS 銀牌訓練機構"],
+    "qualificationPlacement": "Est. 1997 · Taichung 下方、主標語上方",
+    "qualificationSeparator": "金色菱形",
+    "qualificationResponsiveLayout": "flex-wrap；手機窄版可換行",
+    "extraBookCoverOverlays": 0,
+    "founderLabelOverlay": false,
+    "mobileImageCaption": "專業　·　教育　·　實務",
+    "floatingDockContentClearance": "保留文字卡右側空間"
+  },
+  "verification": {
+    "sourceCheck": "PASS（Hero 資格文字、順序、分隔色及手機換行規則）",
+    "browserDomReview": "PASS（三項資格出現在年份眉題與主標語之間）",
+    "browserVisualReview": "NOT_RUN",
+    "browserVisualReviewReason": "本輪未執行多尺寸瀏覽器截圖；已完成來源檢查與瀏覽器 DOM 確認。"
+  }
+}
